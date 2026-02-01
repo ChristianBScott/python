@@ -25,7 +25,7 @@ if age < 1:
     print(f"Free!         ${price:,.2f}")
 elif age <= 11:
     price = float(age)
-    print(f"You're total is ${age:,.2f}")
+    print(f"You're total is ${age:,.2f} (Child Discount)")
 elif age <= 64:
     price = float(16.95)
     print(f"You're total is ${price:,.2f} (Standard Adult)")
