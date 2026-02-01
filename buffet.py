@@ -23,10 +23,10 @@ age = int(input("Please enter your age: "))
 if age < 1:
     price = float(0)
     print(f"Free!         ${price:,.2f}")
-elif age <= 11 and age >= 1:
+elif age <= 11:
     price = float(age)
     print(f"You're total is ${age:,.2f}")
-elif age <= 64 and age >= 12:
+elif age <= 64:
     price = float(16.95)
     print(f"You're total is ${price:,.2f} (Standard Adult)")
 else:
