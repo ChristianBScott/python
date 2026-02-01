@@ -32,3 +32,5 @@ elif age <= 64:
 else:
     price = float(12.95)
     print(f"You're total is ${price:.2f} (Senior Discount)   ")
+
+print("Please come again!")
