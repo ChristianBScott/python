@@ -15,7 +15,9 @@ ASSIGNMENT REQUIREMENTS
 print("Please Enter 2 numbers of your choice.")
 num1 = int(input("Number 1: "))
 num2 = int(input("Number 2: "))
+print("Excellent choices!")
 
+# Performs series of checks and compares both numbers. Prints encouraging results.
 if num1 > 0 and num2 > 0:
     print("Both numbers are bigger than 0. Fantastic!")
 if num1 > 100 and num2 > 100:
@@ -29,6 +31,7 @@ if num1 == num2:
 if not (num1 == 0 and num2 == 0):
     print("At least 1 number is not 0. Phenomenal!")
 
+# Determines if the first input number is postive, negative or 0. Prints encouraging results.
 if num1 > 0:
     print("The first number is positive. Spectacular!")
 elif num1 < 0:
