@@ -33,8 +33,9 @@ if not (num1 == 0 and num2 == 0):
 
 # Determines if the first input number is postive, negative or 0. Prints encouraging results.
 if num1 > 0:
-    print("The first number is positive. Spectacular!")
+    num1_type = "positive"
 elif num1 < 0:
-    print("The first number is negative. Outstanding!")
+    num1_type = "negative"
 else:
-    print("The first number is 0. Remarkable!")
+    num1_type = "0"
+print(f"The first number is {num1_type}. Remarkable!")
