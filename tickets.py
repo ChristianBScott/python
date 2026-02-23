@@ -11,7 +11,7 @@ ASSIGNMENT 6A: TICKET SALES
 -----------------------------------------------------------------------
 """
 
-seats = list(range(1, 21))  # Creates list of seats 0-20
+seats = list(range(1, 21))  # Creates list of seats 1-20
 
 while quit:  # looping prompt that asks user to pick seats
     print(f"Available seats: {seats}")
