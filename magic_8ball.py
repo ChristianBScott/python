@@ -14,7 +14,7 @@ Christian Scott
 
 import random
 
-# TODO: Create a tuple of at least 8 responses
+# creates list of responses for oracle
 RESPONSES = (
     "Yes",
     "No",
@@ -25,20 +25,20 @@ RESPONSES = (
     "Definitely",
     "Not Happening",
 )
-
+# prints intro to oracle
 print("Welcome to the Digital Oracle!")
 print("Type quit to exit")
 
 exit = True
+# while loop for user to ask yes or no questions
 while exit:
     print("Ask any yes or no question and receive insight into the ethereal realm!")
     question = input("")
+    # cleans users question and checks for "quit"
     quit_check = question.strip().lower()
     if "quit" in quit_check:
         break
+    # prints a random option from RESPONSES list
     print(random.choice(RESPONSES))
 
 print("Thank you for using the Digital Oracle")
-# TODO: Create a while loop that keeps asking questions
-# TODO: Use random.choice(RESPONSES) to answer
-# TODO: If user types "quit", break the loop
