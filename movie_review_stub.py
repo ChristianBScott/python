@@ -32,11 +32,19 @@ def add_movie():
     pass
 
 
+exit = True
+
+
 def main():
-    print("Please choose an option.")
-    print("1. View movie list 2. Edit movie list 3. Add movie to list 4. Quit")
-    choice = input("")
+    while exit:
+        print("Please choose an option.")
+        print("1. View movie list 2. Edit movie list 3. Add movie to list 4. Quit")
+        choice = input("")
+        exit = False  # temporary exit of loop
     # TODO: user choice links to defined function.
-    
+
+
 get_user()
 main()
+
+print("Have a nice day.")
