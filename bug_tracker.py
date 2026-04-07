@@ -21,7 +21,7 @@ while True:
         break
     elif entry == "log":
         bug_info_str = input(
-            f"Enter file name, description,  priority separated by commas.\n"
+            f"Enter file name, description, and priority separated by commas.\n"
         )
         bug_info_dict = [item.strip() for item in bug_info_str.split(",")]
         current_time = datetime.datetime.now()
